@@ -1,0 +1,44 @@
+
+
+--------------------------------------------------------------------------------
+                         IOOS Compliance Checker Report                         
+                                 Version 5.0.0                                  
+                     Report generated 2023-01-18T16:32:32Z                      
+                                     cf:1.8                                     
+http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html
+--------------------------------------------------------------------------------
+                               Corrective Actions                               
+atn_22275_loggerhead_turtle_trajectory_19990720_20040226.nc has 5 potential issues
+
+
+                                     Errors                                     
+--------------------------------------------------------------------------------
+§3.3 Standard Name
+* Attribute long_name or/and standard_name is highly recommended for variable gpe_u
+* Attribute long_name or/and standard_name is highly recommended for variable gpe_msd
+* Attribute long_name or/and standard_name is highly recommended for variable count
+* Attribute long_name or/and standard_name is highly recommended for variable Ptt
+
+§3.4 Ancillary Data
+* quartod_rollup_flag is not a variable in this dataset
+
+§3.5 Flags
+* qartod_location_flag's flag_values must be an array of values not <class 'str'>
+* qartod_rollup_flag's flag_values must be an array of values not <class 'str'>
+* qartod_speed_flag's flag_values must be an array of values not <class 'str'>
+* qartod_time_flag's flag_values must be an array of values not <class 'str'>
+
+
+                                    Warnings                                    
+--------------------------------------------------------------------------------
+§2.6 Attributes
+* §2.6.2 comment global attribute should be a non-empty string
+* §2.6.2 references global attribute should be a non-empty string
+* §2.6.1 Conventions global attribute does not contain "CF-1.8"
+
+§3.1 Units
+* units (None) attribute of 'gpe_u' must be a string compatible with UDUNITS
+* units (None) attribute of 'Ptt' must be a string compatible with UDUNITS
+* units (None) attribute of 'gpe_msd' must be a string compatible with UDUNITS
+* units (None) attribute of 'count' must be a string compatible with UDUNITS
+* units (None) attribute of 'deploy_id' must be a string compatible with UDUNITS
